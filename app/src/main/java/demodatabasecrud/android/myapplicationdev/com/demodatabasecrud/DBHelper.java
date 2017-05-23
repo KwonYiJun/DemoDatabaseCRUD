@@ -102,6 +102,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
         return result;
     }
+    //Retrieve records that contains a given keyword
     public ArrayList<Note> getAllNotes(String keyword) {
         ArrayList<Note> notes = new ArrayList<Note>();
 
